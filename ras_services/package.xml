@@ -1,16 +1,18 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>ras_topics</name>
+  <name>ras_services</name>
   <version>0.0.0</version>
   <description>
-    Example package to learn about topics.
+    Package to learn about services in ROS 2
   </description>
-  <maintainer email="gabrieldiaz85@hotmail.com">GaboRock94</maintainer>
+  <maintainer email="dfelipe.lopez@gmail.com">DanielFLopez1620</maintainer>
   <license>BSD-3-Clause</license>
 
+  <depend>turtlesim</depend>
+  <depend>example_interfaces</depend>
+  <depend>std_srvs</depend>
   <depend>rclpy</depend>
-  <depend>std_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

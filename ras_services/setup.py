@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'ras_topics'
+package_name = 'ras_services'
 
 setup(
     name=package_name,
@@ -13,15 +13,15 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='GaboRock94',
-    maintainer_email='gabrieldiaz85@hotmail.com',
-    description='Example package to learn about topics.',
+    maintainer='DanielFLopez1620',
+    maintainer_email='dfelipe.lopez@gmail.com',
+    description='Package to learn about services in ROS 2',
     license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'publisher_py = ras_topics.publisher_py:main',
-            'subscriber = ras_topics.subscriber:main',
+            'sum_server = ras_services.sum_server:main',
+            'sum_client = ras_services.sum_client:main',
         ],
     },
 )
