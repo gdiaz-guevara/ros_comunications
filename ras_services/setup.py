@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'sum_server = ras_services.sum_server:main',
+            'sum_client = ras_services.sum_client:main',
         ],
     },
 )
