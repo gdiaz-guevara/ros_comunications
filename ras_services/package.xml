@@ -12,6 +12,7 @@
   <depend>turtlesim</depend>
   <depend>example_interfaces</depend>
   <depend>std_srvs</depend>
+  <depend>rclpy</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
